@@ -57,11 +57,11 @@ for i =1:10
     xTi = randperm(size(xT,1));
     xT = xT(xTi,:);
     yT = yT(xTi);
-    Res1(i,:) = HKRisk2p(xT,yT,xt,yt,1); 
-    Res2(i,:) = HKRisk2p(xT,yT,xt,yt,2); 
-    Res3(i,:) = HKRisk2p(xT,yT,xt,yt,3); 
-    Res4(i,:) = HKRisk2p(xT,yT,xt,yt,5); 
-    Res5(i,:) = HKRisk2p(xT,yT,xt,yt,10); 
+    Res1(i,:) = NRSk(xT,yT,xt,yt,1); 
+    Res2(i,:) = NRSk(xT,yT,xt,yt,2); 
+    Res3(i,:) = NRSk(xT,yT,xt,yt,3); 
+    Res4(i,:) = NRSk(xT,yT,xt,yt,5); 
+    Res5(i,:) = NRSk(xT,yT,xt,yt,10); 
     rib = circshift(rib,[0,foldsizeB]);
 end
 mRes1 = mean(Res1,1); 
