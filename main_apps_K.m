@@ -4,7 +4,7 @@ clear;
 % For experiment on each dataset, uncomment related section
 
 %%  Market2011- Malwares2011 dataset
-% load('allapps.mat');
+% load('Market2011- Malwares2011.mat');
 % Benign =  Bengin2011;
 % Benign_label = Bengin2011_label;
 % Malwares = Fullmalware;
@@ -18,7 +18,7 @@ clear;
 % MalLabeles = mydrebin_label(mydrebin_label==1);
 
 %% deypir2019 dataset
-% load('deypir_dataset.mat');
+% load('Drebin2014.mat');
 % Benign =  Bazarplus;
 % Benign_label = Bazarplus_label;
 % Malwares = MilaMal;
