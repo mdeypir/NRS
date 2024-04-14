@@ -4,14 +4,14 @@ clear;
 % For experiment on each dataset, uncomment related section
 
 %%  Market2011- Malwares2011 dataset
-% load('allapps.mat');
+% load('Market2011- Malwares2011.mat');
 % Benign =  Bengin2011;
 % Benign_label = Bengin2011_label;
 % Malwares = Fullmalware;
 % MalLabeles = mal_label;
 
 %% Drebin2014 Dataset
-% load('mydrebin.mat');
+% load('Drebin2014.mat');
 % Benign =  mydrebin(mydrebin_label==0,:);
 % Benign_label = mydrebin_label(mydrebin_label==0);
 % Malwares = mydrebin(mydrebin_label==1,:);
