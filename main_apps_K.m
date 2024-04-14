@@ -11,14 +11,14 @@ clear;
 % MalLabeles = mal_label;
 
 %% Drebin2014 Dataset
-% load('mydrebin.mat');
+% load('Drebin2014.mat');
 % Benign =  mydrebin(mydrebin_label==0,:);
 % Benign_label = mydrebin_label(mydrebin_label==0);
 % Malwares = mydrebin(mydrebin_label==1,:);
 % MalLabeles = mydrebin_label(mydrebin_label==1);
 
 %% deypir2019 dataset
-% load('Drebin2014.mat');
+% load('deypir_dataset.mat');
 % Benign =  Bazarplus;
 % Benign_label = Bazarplus_label;
 % Malwares = MilaMal;
